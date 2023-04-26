@@ -9,6 +9,16 @@
       "comparison": "included",
       "timeout": 1,
       "points": 100
+    },
+    {
+      "name": "file content",
+      "setup": "gcc shared_fd3.c -o main",
+      "run": "./main & ID=$! | pgrep -P $ID | grep -wn msglog.txt | cut -d: -f1",
+      "input": "",
+      "output": "[0-9]+",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
     }
   ]
 }
