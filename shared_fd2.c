@@ -1,5 +1,5 @@
 /**
- * shared fd: 1 process reads, the other writes
+ * shared fd: 1 process reads, the other writes 
  *
  * */
 #include <fcntl.h>
