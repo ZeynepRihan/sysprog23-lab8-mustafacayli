@@ -1,6 +1,6 @@
 /**
  * nonshared fds
- * opens/creates files with the 
+ * opens/creates files with the  
  * different  names file descriptors are not shread!
 */
 #include <stdio.h>
