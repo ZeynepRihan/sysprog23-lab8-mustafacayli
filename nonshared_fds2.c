@@ -1,7 +1,7 @@
 /**
  * nonshared fds
  * opens/creates files with the
- * same name (2nd open overwrites the file previously created)
+ * same name (2nd open overwrites the file previously created) 
  */
 #include <fcntl.h>
 #include <stdio.h>
