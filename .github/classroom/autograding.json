@@ -11,7 +11,7 @@
       "points": 99
     },
     {
-      "name": "file content",
+      "name": "process ids vs file content",
       "setup": "gcc shared_fd3.c -o main",
       "run": "./main & ID=$! | pgrep -P $ID | grep -wn msglog.txt | cut -d: -f1",
       "input": "",
